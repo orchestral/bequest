@@ -1,5 +1,6 @@
 {
 	"name": "orchestra/bequest",
+	"description": "Orchestra Platform Backward Compatibility Library",
 	"license": "MIT",
 	"keywords": ["orchestra-platform", "orchestral"],
 	"authors": [
@@ -11,7 +12,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Orchestra\\Foundation\\Routing": "src/Foundation/Routing/"
+			"Orchestra\\Foundation\\": "src/Foundation/"
 		}
 	},
 	"require": {
