@@ -2,5 +2,6 @@
 
 # Ignore following folder/file.
 /docs           export-ignore
+/spec           export-ignore
 /.php_cs        export-ignore
 /LICENSE        export-ignore
