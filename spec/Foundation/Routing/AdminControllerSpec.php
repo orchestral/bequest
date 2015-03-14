@@ -12,7 +12,7 @@ class AdminControllerSpec extends ObjectBehavior
     {
         $this->beAnInstanceOf('spec\Orchestra\Foundation\Routing\DummyAdminController');
     }
-    
+
     function it_is_initializable()
     {
         $this->shouldHaveType('Orchestra\Foundation\Routing\AdminController');
