@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Orchestra
+        psr4_prefix: Orchestra
+        src_path: src
