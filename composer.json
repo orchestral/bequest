@@ -1,8 +1,8 @@
 {
 	"name": "orchestra/bequest",
 	"description": "Orchestra Platform Backward Compatibility Library",
-	"license": "MIT",
 	"keywords": ["orchestra-platform", "orchestral"],
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Mior Muhammad Zaki",
@@ -25,7 +25,7 @@
 	},
 	"extra": {
 		"branch-alias": {
-			"dev-master": "3.1-dev"
+			"dev-master": "3.2-dev"
 		}
 	},
 	"minimum-stability": "dev"
