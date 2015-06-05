@@ -21,7 +21,6 @@ before_script:
 
 script:
   - ./vendor/bin/phpspec run
-  - phpunit -c phpunit.xml
 
 matrix:
   include:
