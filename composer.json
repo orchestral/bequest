@@ -1,33 +1,33 @@
 {
-	"name": "orchestra/bequest",
-	"description": "Orchestra Platform Backward Compatibility Library",
-	"keywords": ["orchestra-platform", "orchestral"],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Mior Muhammad Zaki",
-			"email": "crynobone@gmail.com",
-			"homepage": "https://github.com/crynobone"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"Orchestra\\Foundation\\": "src/Foundation/"
-		}
-	},
-	"require": {
-		"php": ">=5.4.0",
-		"orchestra/contracts": "~3.1.0"
-	},
-	"require-dev": {
-		"mockery/mockery": "0.9.*",
-		"phpspec/phpspec": "~2.1",
-		"orchestra/foundation": "~3.1.0"
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "3.2-dev"
-		}
-	},
-	"minimum-stability": "dev"
+    "name": "orchestra/bequest",
+    "description": "Orchestra Platform Backward Compatibility Library",
+    "keywords": ["orchestra-platform", "orchestral"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mior Muhammad Zaki",
+            "email": "crynobone@gmail.com",
+            "homepage": "https://github.com/crynobone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Orchestra\\Foundation\\": "src/Foundation/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "orchestra/contracts": "~3.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpspec/phpspec": "~2.1",
+        "orchestra/foundation": "~3.1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.2-dev"
+        }
+    },
+    "minimum-stability": "dev"
 }
