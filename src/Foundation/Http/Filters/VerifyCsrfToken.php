@@ -4,7 +4,6 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
 use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Session\TokenMismatchException;
-use Symfony\Component\Security\Core\Util\StringUtils;
 
 class VerifyCsrfToken
 {
@@ -57,6 +56,6 @@ class VerifyCsrfToken
             $token = $this->encrypter->decrypt($header);
         }
 
-        return StringUtils::equals($request->session()->token(), $token);
+        return hash_equals((string) $request->session()->token(), (string) $token);
     }
 }
