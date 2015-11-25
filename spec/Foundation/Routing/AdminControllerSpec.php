@@ -26,4 +26,9 @@ class DummyAdminController extends AdminController
     {
         //
     }
+
+    protected function setupMiddleware()
+    {
+        //
+    }
 }

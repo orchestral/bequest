@@ -1,5 +1,6 @@
 <?php namespace Orchestra\Foundation\Http\Filters;
 
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
 use Illuminate\Contracts\Encryption\Encrypter;
@@ -56,6 +57,6 @@ class VerifyCsrfToken
             $token = $this->encrypter->decrypt($header);
         }
 
-        return hash_equals((string) $request->session()->token(), (string) $token);
+        return Str::equals((string) $request->session()->token(), (string) $token);
     }
 }
