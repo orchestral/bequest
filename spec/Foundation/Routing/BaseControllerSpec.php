@@ -26,4 +26,9 @@ class DummyBaseController extends BaseController
     {
         //
     }
+
+    protected function setupMiddleware()
+    {
+        //
+    }
 }
